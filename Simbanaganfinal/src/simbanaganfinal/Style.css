@@ -1,0 +1,68 @@
+.top-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .2px .4px;
+}
+
+.semi-top-form {
+    -fx-background-color:#efefef;
+    -fx-border-color:#000;
+    -fx-border-width:.2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    
+}
+
+.close:hover{
+    -fx-background-color:#f43f57;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+.minimize:hover{
+    -fx-background-color:#ddd;
+}
+
+.nav-form{
+    -fx-background-color:linear-gradient(to bottom right, #000000, #000000 );
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-family:"Tahoma";
+    -fx-font-size:15px;
+    -fx-text-fill:#fff;
+    -fx-alignment:CENTER-LEFT;
+}
+
+.logout{
+    -fx-background-color:#efefef;
+    -fx-background-radius:10px;
+    -fx-cursor:hand;
+}
+
+.logout:hover{
+    -fx-background-color:#69e0eb;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+   
+}
+
+.card{
+    -fx-background-color:linear-gradient(to bottom right, #69e0eb, #b94f4f);
+    -fx-background-radius:5px;
+}
+
